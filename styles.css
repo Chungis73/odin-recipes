@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    height: 200px;
+    color: white;
+    background: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 75px 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 0;
+    background:white;
+}
+
+li:first-child{
+    background-image: url("recipes/media/chickenpic.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+li:nth-child(2){
+    background-image: url("recipes/media/steakpic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
+    
+}
+
+li:nth-child(3){
+    background-image: url("recipes/media/porkpic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
